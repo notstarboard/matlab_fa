@@ -55,10 +55,10 @@ function [land_rough, lon, lat] = nlcdlandcover(File, Wlon, Elon, Slat, Nlat, Ex
     --Roughness length mapping---------------------------------------------
     
     Land Cover to z0 mapping was retrieved from the Hazus Hurricane Model Technical Manual for
-    Hazus 4.2 Service Pack 3 published in March 2021. See Tables 4-13 and 4-14.
+    Hazus 5.1 published in July 2022. See Tables 4-13 and 4-14.
 
-    https://www.fema.gov/sites/default/files/documents/fema_hazus-hurricane-technical-manual-4.2.3_0.pdf 
-    * Link good as of 6/2022.
+    https://www.fema.gov/sites/default/files/documents/fema_hazus-hurricane-model-technical-manual-5-1.pdf 
+    * Link good as of 2/2024.
     https://www.fema.gov/flood-maps/tools-resources/flood-map-products/hazus/user-technical-manuals
     * Try here if the first link fails. A new version could be out.
 
