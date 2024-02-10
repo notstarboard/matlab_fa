@@ -4,7 +4,7 @@ function [land_rough, lon, lat] = nlcdlandcover(File, Wlon, Elon, Slat, Nlat, Ex
     This function retrieves land cover data from the National Land Cover Database's (NLCD) continental 
     US (CONUS) land cover files, i.e. nlcd_*_land_cover_l48_*.i*, and maps it to land roughess using
     FEMA Hazus land cover to z0 mappings. You must download the land cover files from the MRLC website: 
-    https://www.mrlc.gov/data (link good as of 6/2022).
+    https://www.mrlc.gov/data (link good as of 2/2024).
 
     ***IMPORTANT NOTE***: This function requires a lot of memory to run. You'll want 35 GiB RAM + swap at
     minimum. One could improve performance by using memmapfile(), but that approach would likely require
